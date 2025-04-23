@@ -2,6 +2,11 @@
 
 Este es mi portafolio profesional como desarrollador de software, diseñado para mostrar mis habilidades, experiencia y proyectos.
 
+## Despliegue
+
+El sitio está desplegado en GitHub Pages y se puede acceder a través de:
+https://juanpablopinillaguzman.github.io/PortafolioJuanPinilla/
+
 ## Características
 
 - Diseño responsive para todos los dispositivos
@@ -50,10 +55,6 @@ Para trabajar en el desarrollo del portafolio:
 2. Prueba los cambios en diferentes dispositivos y navegadores
 3. Optimiza las imágenes y recursos según sea necesario
 
-## Despliegue
-
-El sitio está desplegado en GitHub Pages y se puede acceder a través de:
-https://juanpablopinillaguzman.github.io/PortafolioJuanPinilla/
 
 ## Contacto
 
