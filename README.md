@@ -37,7 +37,7 @@ Este es mi portafolio profesional como desarrollador de software, diseñado para
 
 1. Clona este repositorio:
 ```bash
-git clone https://github.com/tuuser/portafolio.git
+git clone https://github.com/JuanPabloPinillaGuzman/PortafolioJuanPinilla
 ```
 
 2. Abre el archivo `index.html` en tu navegador web preferido.
@@ -57,10 +57,6 @@ El sitio está desplegado en GitHub Pages y se puede acceder a través de:
 
 ## Contacto
 
-- GitHub: [Tu perfil de GitHub]
-- LinkedIn: [Tu perfil de LinkedIn]
+- GitHub: https://github.com/JuanPabloPinillaGuzman
+- LinkedIn: https://www.linkedin.com/in/juan-pablo-pinilla-guzman-bb6b9b225/
 - Teléfono: +57 3123246699
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
