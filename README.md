@@ -53,7 +53,7 @@ Para trabajar en el desarrollo del portafolio:
 ## Despliegue
 
 El sitio está desplegado en GitHub Pages y se puede acceder a través de:
-[URL del sitio]
+https://juanpablopinillaguzman.github.io/PortafolioJuanPinilla/
 
 ## Contacto
 
