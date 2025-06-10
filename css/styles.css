@@ -38,6 +38,8 @@ body {
     top: 0;
     z-index: 1000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background-color var(--transition-speed);
+    transform: translateY(0) !important;
 }
 
 .nav-container {
@@ -55,6 +57,13 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
+    cursor: pointer;
+    transition: all var(--transition-speed);
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    color: var(--primary-color);
 }
 
 .nav-links {
@@ -161,6 +170,10 @@ body {
 section {
     padding: 6rem 2rem;
     position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 section h2 {
@@ -361,4 +374,10 @@ section h2 {
     section {
         padding: 4rem 1rem;
     }
+}
+
+/* Ajuste para el scroll suave */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Ajusta este valor según la altura de tu navbar */
 } 

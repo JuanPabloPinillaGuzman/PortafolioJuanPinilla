@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('section');
     const heroSection = document.querySelector('.hero-section');
     const skillItems = document.querySelectorAll('.skills-container li');
+    const logo = document.querySelector('.logo');
 
     // Efecto Parallax para el fondo del hero
     document.addEventListener('mousemove', (e) => {
@@ -157,12 +158,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const scrolled = Math.min(currentScroll / 200, 1);
         header.style.backgroundColor = `rgba(42, 42, 42, ${scrolled * 0.9})`;
         
-        // Ocultar/mostrar header
-        if (currentScroll > lastScroll && currentScroll > 100) {
-            header.style.transform = 'translateY(-100%)';
-        } else {
-            header.style.transform = 'translateY(0)';
-        }
+        // Mantener el header siempre visible
+        header.style.transform = 'translateY(0)';
         lastScroll = currentScroll;
     });
 
@@ -194,6 +191,14 @@ document.addEventListener('DOMContentLoaded', () => {
         item.addEventListener('mouseleave', () => {
             item.style.transform = 'translateX(0) scale(1)';
             item.style.backgroundColor = 'var(--glass-background)';
+        });
+    });
+
+    // Funcionalidad del logo
+    logo.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
         });
     });
 }); 
