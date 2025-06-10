@@ -11,9 +11,12 @@ https://juanpablopinillaguzman.github.io/PortafolioJuanPinilla/
 
 - Diseño responsive para todos los dispositivos
 - Animaciones y transiciones suaves
-- Navegación intuitiva
+- Navegación fija con scroll suave
 - Secciones organizadas para mostrar información profesional
 - Optimizado para rendimiento y accesibilidad
+- Efectos de glassmorphism en la interfaz
+- Navegación intuitiva con barra superior fija
+- Scroll suave entre secciones
 
 ## Tecnologías Utilizadas
 
@@ -23,6 +26,8 @@ https://juanpablopinillaguzman.github.io/PortafolioJuanPinilla/
 - Font Awesome para iconos
 - Intersection Observer API para animaciones de scroll
 - CSS Grid y Flexbox para layouts
+- Efectos de parallax y glassmorphism
+- Scroll suave nativo
 
 ## Estructura del Proyecto
 
@@ -55,9 +60,16 @@ Para trabajar en el desarrollo del portafolio:
 2. Prueba los cambios en diferentes dispositivos y navegadores
 3. Optimiza las imágenes y recursos según sea necesario
 
+## Características de Navegación
+
+- Barra de navegación fija en la parte superior
+- Scroll suave entre secciones
+- Logo clickeable que lleva al inicio
+- Menú responsive para dispositivos móviles
+- Transiciones suaves en la navegación
 
 ## Contacto
 
+- Email: juanpablopiinilla@gmail.com
 - GitHub: https://github.com/JuanPabloPinillaGuzman
 - LinkedIn: https://www.linkedin.com/in/juan-pablo-pinilla-guzman-bb6b9b225/
-- Teléfono: +57 3123246699
